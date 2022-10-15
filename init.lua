@@ -43,11 +43,14 @@ local config = {
   options = {
     opt = {
       -- set to true or false etc.
+      guifont = "FiraCode Nerd Font Mono:h11",
       relativenumber = true, -- sets vim.opt.relativenumber
       number = true, -- sets vim.opt.number
       spell = false, -- sets vim.opt.spell
       signcolumn = "auto", -- sets vim.opt.signcolumn to auto
-      wrap = false, -- sets vim.opt.wrap
+      wrap = true, -- sets vim.opt.wrap
+      showbreak = "↪  ",
+      breakindent = true,
     },
     g = {
       mapleader = " ", -- sets vim.g.mapleader
