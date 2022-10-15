@@ -201,6 +201,7 @@ local config = {
       ["<leader>bh"] = { "<cmd>BufferLineCyclePrev<cr>", desc = "Previous" },
       -- quick save
       -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+      ["<leader>aa"] = { "<cmd>AerialToggle<cr>", desc = "Toggle outline" },
     },
     t = {
       -- setting a mapping to false will disable it
@@ -297,6 +298,7 @@ local config = {
         ["<leader>"] = {
           -- third key is the key to bring up next level and its displayed
           -- group name in which-key top level menu
+          ["a"] = { name = "Aerial" },
           ["b"] = { name = "Buffer" },
         },
       },
