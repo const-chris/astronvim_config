@@ -58,6 +58,9 @@ local config = {
       autopairs_enabled = true, -- enable autopairs at start
       diagnostics_enabled = true, -- enable diagnostics at start
       status_diagnostics_enabled = true, -- enable diagnostics in statusline
+      neovide_cursor_vfx_mode = "railgun",
+      neovide_cursor_vfx_particle_density = 10.0,
+      neovide_hide_mouse_when_typing = true,
     },
   },
   -- If you need more control, you can use the function()...end notation
